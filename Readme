@@ -45,3 +45,49 @@ pip install pdf2image watchdog
 對於 Linux 用戶：
 
 在終端中輸入：sudo apt-get install poppler-utils
+
+使用方法
+
+打開命令提示符（Windows）或終端機（Mac/Linux）
+
+進入保存 pdf_to_image_converter.py 文件的目錄
+
+例如：cd C:\Users\YourName\Documents（Windows）
+
+或：cd /Users/YourName/Documents（Mac/Linux）
+
+運行程式：
+
+輸入：python pdf_to_image_converter.py
+
+按回車執行
+
+程式啟動後，會彈出兩個文件夾選擇窗口：
+
+在第一個窗口中，選擇您要放置 PDF 文件的輸入文件夾
+
+在第二個窗口中，選擇您要保存轉換後圖像的輸出文件夾
+
+選擇完成後，程式會開始監視輸入文件夾
+
+將 PDF 文件放入您選擇的輸入文件夾中
+
+程式會自動檢測新增的 PDF 文件
+
+對每個 PDF 文件，程式會在輸出文件夾中創建一個同名的子文件夾
+
+PDF 的每一頁都會被轉換為一個高品質的 PNG 圖像
+
+轉換完成的圖像文件可以在輸出文件夾中找到
+
+程式會持續運行並監視文件夾，您可以繼續添加新的 PDF 文件
+
+要停止程式，請在運行程式的命令提示符或終端機窗口中按 Ctrl+C
+
+注意事項
+
+確保您的電腦有足夠的硬碟空間來保存轉換後的圖像文件
+
+轉換大型 PDF 文件可能需要一些時間，請耐心等待
+
+如果遇到任何問題，請確保您已正確安裝所有必要的軟件和庫
