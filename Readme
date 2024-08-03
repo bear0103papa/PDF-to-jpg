@@ -1,0 +1,47 @@
+簡介
+
+這個程式可以自動將 PDF 文件轉換為高品質的圖像文件。它會監視一個指定的文件夾，當有新的 PDF 文件放入時，自動將其轉換為圖像並保存到另一個指定的文件夾中。
+
+功能特點
+
+自動監視文件夾，檢測新增的 PDF 文件
+
+將 PDF 轉換為高品質 PNG 圖像
+
+為每個 PDF 文件創建單獨的輸出文件夾
+
+使用簡單的圖形界面選擇輸入和輸出文件夾
+
+安裝步驟
+
+安裝 Python：
+
+訪問 Python 官網
+
+下載並安裝適合您系統的 Python 版本（建議使用 Python 3.7 或更高版本）
+
+安裝時請確保勾選"Add Python to PATH"選項
+
+安裝所需的 Python 庫：
+
+打開命令提示符（Windows）或終端機（Mac/Linux）
+
+輸入以下命令並按回車：
+
+pip install pdf2image watchdog
+
+安裝 Poppler：
+
+對於 Windows 用戶：
+
+下載 Poppler for Windows：下載鏈接
+
+解壓下載的文件，並將解壓後的文件夾中的 bin 目錄添加到系統的 PATH 環境變數中
+
+對於 Mac 用戶：
+
+在終端中輸入：brew install poppler
+
+對於 Linux 用戶：
+
+在終端中輸入：sudo apt-get install poppler-utils
